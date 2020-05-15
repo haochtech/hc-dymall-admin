@@ -1,0 +1,32 @@
+---------------------------------------------------------------
+[2019-08-18T11:03:25+08:00] 112.17.240.178 POST chengzhenzixun.zx-xcx.com/api/indexs/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006917s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `consult_user` [ RunTime:0.005168s ]
+[ sql ] [ SQL ] SELECT * FROM `consult_user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.004688s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006721s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `consult_banner` [ RunTime:0.004846s ]
+[ sql ] [ SQL ] SELECT `id`,cover img FROM `consult_banner` WHERE  `type` = '2'  AND `status` = '1'  AND `province` = '浙江省'  AND `market` = '温州市'  AND `area` = '平阳县'  AND `town` = '鳌江镇' ORDER BY `sort` DESC [ RunTime:0.004434s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006083s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,cover img FROM `consult_banner` WHERE  `province` = '1'  AND `type` = '2'  AND `status` = '1' ORDER BY `sort` DESC [ RunTime:0.004224s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006651s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `consult_cls` [ RunTime:0.004773s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`icon` FROM `consult_cls` WHERE  `type` = '2'  AND `pid` = 0  AND `status` = '1'  AND `province` = '浙江省'  AND `market` = '温州市'  AND `area` = '平阳县'  AND `town` = '鳌江镇'  AND `town_show` = 1 ORDER BY `sort` DESC [ RunTime:0.005269s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006869s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`title`,`icon` FROM `consult_cls` WHERE  `type` = '2'  AND `pid` = 0  AND `status` = '1'  AND `province` = '浙江省'  AND `market` = '温州市'  AND `area` = '平阳县'  AND `area_show` = 1 ORDER BY `sort` DESC [ RunTime:0.005512s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005942s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SELECT `id`,`title`,`icon` FROM `consult_cls` WHERE  `type` = '2'  AND `pid` = 0  AND `status` = '1'  AND `province` = '浙江省'  AND `market` = '温州市'  AND `mar_show` = 1 ORDER BY `sort` DESC [ RunTime:0.004527s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006221s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `consult_cls` WHERE  `pid` IN (1280,1281,1282,1283,1290,1291,1292,1293)  AND `status` = '1'  AND `type` = '2'  AND `province` = '浙江省'  AND `market` = '温州市'  AND `mar_show` = 1 [ RunTime:0.004509s ]
+---------------------------------------------------------------
+[2019-08-18T11:03:34+08:00] 112.17.240.178 POST chengzhenzixun.zx-xcx.com/api/indexs/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005996s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `consult_user` [ RunTime:0.004640s ]
+[ sql ] [ SQL ] SELECT * FROM `consult_user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.004242s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006084s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `consult_banner` [ RunTime:0.004557s ]
+[ sql ] [ SQL ] SELECT `id`,cover img FROM `consult_banner` WHERE  `type` = '2'  AND `status` = '1'  AND `province` = '浙江省'  AND `market` = '温州市'  AND `area` = '苍南县' ORDER BY `sort` DESC [ RunTime:0.004069s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006913s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `consult_cls` [ RunTime:0.004868s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`icon` FROM `consult_cls` WHERE  `type` = '2'  AND `pid` = 0  AND `status` = '1'  AND `province` = '浙江省'  AND `market` = '温州市'  AND `area` = '苍南县'  AND `area_show` = 1 ORDER BY `sort` DESC [ RunTime:0.005539s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006707s ] mysql:host=39.104.207.2;dbname=chengzhenzixun_;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `consult_cls` WHERE  `pid` IN (1240,1244,1249,1252,1266,1290,1291,1292,1293)  AND `status` = '1'  AND `type` = '2'  AND `province` = '浙江省'  AND `market` = '温州市'  AND `area` = '苍南县'  AND `area_show` = 1 [ RunTime:0.004990s ]

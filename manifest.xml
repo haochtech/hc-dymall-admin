@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.zx-app.cn" versionCode="">
+    <application setting="false">
+        <name><![CDATA[抖音商城版]]></name>
+        <identifie><![CDATA[zxdy_mall]]></identifie>
+        <version><![CDATA[2.0.0]]></version>
+        <type><![CDATA[business]]></type>
+        <ability><![CDATA[抖音商城版]]></ability>
+        <description><![CDATA[抖音商城版]]></description>
+        <author><![CDATA[抖音商城版]]></author>
+        <url><![CDATA[http://www.zx-app.cn]]></url>
+    </application>
+    <platform>
+        <supports>
+            <item type="wxapp"/>
+        </supports>
+    </platform>
+    <bindings>
+    </bindings>
+    <permissions>
+    </permissions>
+    <install><![CDATA[wesambo.php]]></install>
+    <uninstall><![CDATA[]]></uninstall>
+    <upgrade><![CDATA[]]></upgrade>
+</manifest>
